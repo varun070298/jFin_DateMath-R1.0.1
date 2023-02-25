@@ -1,0 +1,1 @@
+java -classpath ../%JAR%:. -Djava.util.logging.config.file=../conf/logging.properties SwapScheduleGenerator

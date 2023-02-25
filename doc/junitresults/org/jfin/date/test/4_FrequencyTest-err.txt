@@ -1,0 +1,7 @@
+Feb 19, 2010 1:13:39 PM org.jfin.date.holiday.HolidayCalendarFactory newInstance
+INFO: Constructing new default holiday calendar provider.
+Feb 19, 2010 1:13:39 PM org.jfin.date.holiday.HolidayCalendarFactory newInstance
+INFO: No system property jfin.HolidayCalendarFactory provided, using org.jfin.date.holiday.defaultimpl.HolidayCalendarFactoryImpl
+Feb 19, 2010 1:13:39 PM org.jfin.date.holiday.HolidayCalendarFactory newInstance
+INFO: Attempting to instantiate org.jfin.date.holiday.defaultimpl.HolidayCalendarFactoryImpl
+

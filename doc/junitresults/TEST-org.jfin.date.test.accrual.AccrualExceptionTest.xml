@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="macintosh-5.home" name="org.jfin.date.test.accrual.AccrualExceptionTest" tests="4" time="0.0050" timestamp="2010-02-19T13:13:40">
+  <properties>
+    <property name="java.vendor" value="Apple Inc." />
+    <property name="strutsxml" value="/Users/dmb/Documents/jFin/WP Site/code/jfin/src/web/metadata/struts-config.xml" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="jikes.class.path" value=":/System/Library/Frameworks/JavaVM.framework/Versions/CurrentJDK/Home//../Classes/alt-rt.jar:/System/Library/Frameworks/JavaVM.framework/Versions/CurrentJDK/Home//../Classes/charsets.jar:/System/Library/Frameworks/JavaVM.framework/Versions/CurrentJDK/Home//../Classes/classes.jar:/System/Library/Frameworks/JavaVM.framework/Versions/CurrentJDK/Home//../Classes/dt.jar:/System/Library/Frameworks/JavaVM.framework/Versions/CurrentJDK/Home//../Classes/jce.jar:/System/Library/Frameworks/JavaVM.framework/Versions/CurrentJDK/Home//../Classes/jconsole.jar:/System/Library/Frameworks/JavaVM.framework/Versions/CurrentJDK/Home//../Classes/jsse.jar:/System/Library/Frameworks/JavaVM.framework/Versions/CurrentJDK/Home//../Classes/laf.jar:/System/Library/Frameworks/JavaVM.framework/Versions/CurrentJDK/Home//../Classes/management-agent.jar:/System/Library/Frameworks/JavaVM.framework/Versions/CurrentJDK/Home//../Classes/ui.jar" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Server Compiler" />
+    <property name="example_bat_source" value="/Users/dmb/Documents/jFin/WP Site/code/jfin/src/example/bat" />
+    <property name="lib" value="/Users/dmb/Documents/jFin/WP Site/code/jfin/target/lib" />
+    <property name="os.name" value="Mac OS X" />
+    <property name="junitresults" value="/Users/dmb/Documents/jFin/WP Site/code/jfin/target/doc/junitresults" />
+    <property name="tag" value="R1_0_1" />
+    <property name="sun.boot.class.path" value="/System/Library/Frameworks/JavaVM.framework/Versions/1.6.0/Classes/jsfd.jar:/System/Library/Frameworks/JavaVM.framework/Versions/1.6.0/Classes/classes.jar:/System/Library/Frameworks/JavaVM.framework/Frameworks/JavaRuntimeSupport.framework/Resources/Java/JavaRuntimeSupport.jar:/System/Library/Frameworks/JavaVM.framework/Versions/1.6.0/Classes/ui.jar:/System/Library/Frameworks/JavaVM.framework/Versions/1.6.0/Classes/laf.jar:/System/Library/Frameworks/JavaVM.framework/Versions/1.6.0/Classes/sunrsasign.jar:/System/Library/Frameworks/JavaVM.framework/Versions/1.6.0/Classes/jsse.jar:/System/Library/Frameworks/JavaVM.framework/Versions/1.6.0/Classes/jce.jar:/System/Library/Frameworks/JavaVM.framework/Versions/1.6.0/Classes/charsets.jar" />
+    <property name="webxml" value="/Users/dmb/Documents/jFin/WP Site/code/jfin/src/web/metadata/jfinwebapp.xml" />
+    <property name="junitlib" value="/Users/dmb/Documents/jFin/WP Site/code/jfin/lib/junit.jar" />
+    <property name="java.vm.specification.vendor" value="Sun Microsystems Inc." />
+    <property name="net.sourceforge.cobertura.datafile" value="/Users/dmb/Documents/jFin/WP Site/code/jfin/target/doc/coverageresults/cobertura.ser" />
+    <property name="ant.home" value="/usr/share/ant" />
+    <property name="tarbin" value="/Users/dmb/Documents/jFin/WP Site/code/jfin/target/jFin_DateMath_R1_0_1_bin.tar" />
+    <property name="java.runtime.version" value="1.6.0_17-b04-248-10M3025" />
+    <property name="mainsrc" value="/Users/dmb/Documents/jFin/WP Site/code/jfin/src/main/java" />
+    <property name="webinfsrc" value="/Users/dmb/Documents/jFin/WP Site/code/jfin/src/WEB-INF" />
+    <property name="webservices" value="/Users/dmb/Documents/jFin/WP Site/code/jfin/src/web/service" />
+    <property name="jspsrc" value="/Users/dmb/Documents/jFin/WP Site/code/jfin/src/web/jsp" />
+    <property name="weblib" value="/Users/dmb/Documents/jFin/WP Site/code/jfin/weblib" />
+    <property name="user.name" value="dmb" />
+    <property name="tarsrc" value="/Users/dmb/Documents/jFin/WP Site/code/jfin/target/jFin_DateMath_R1_0_1_src.tar" />
+    <property name="awt.nativeDoubleBuffering" value="true" />
+    <property name="htmlsrc" value="/Users/dmb/Documents/jFin/WP Site/code/jfin/src/web/html" />
+    <property name="instrumentedclasses" value="/Users/dmb/Documents/jFin/WP Site/code/jfin/target/instrumentedclasses" />
+    <property name="user.language" value="en" />
+    <property name="collectedsource" value="/Users/dmb/Documents/jFin/WP Site/code/jfin/target/collectedsrc" />
+    <property name="sun.boot.library.path" value="/System/Library/Frameworks/JavaVM.framework/Versions/1.6.0/Libraries" />
+    <property name="ant.project.name" value="jFin DateMath" />
+    <property name="java.version" value="1.6.0_17" />
+    <property name="user.timezone" value="" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="java.endorsed.dirs" value="/System/Library/Frameworks/JavaVM.framework/Versions/1.6.0/Home/lib/endorsed" />
+    <property name="doc" value="/Users/dmb/Documents/jFin/WP Site/code/jfin/doc" />
+    <property name="jar" value="/Users/dmb/Documents/jFin/WP Site/code/jfin/target/jFin_DateMath_R1_0_1.jar" />
+    <property name="sun.cpu.isalist" value="" />
+    <property name="sun.jnu.encoding" value="MacRoman" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="file.separator" value="/" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.class.version" value="50.0" />
+    <property name="src" value="/Users/dmb/Documents/jFin/WP Site/code/jfin/src" />
+    <property name="websource" value="/Users/dmb/Documents/jFin/WP Site/code/jfin/src/web/java" />
+    <property name="webresources" value="/Users/dmb/Documents/jFin/WP Site/code/jfin/src/web/resource" />
+    <property name="user.country" value="US" />
+    <property name="junitclasses" value="/Users/dmb/Documents/jFin/WP Site/code/jfin/target/test/classes" />
+    <property name="java.home" value="/System/Library/Frameworks/JavaVM.framework/Versions/1.6.0/Home" />
+    <property name="ant.file.jFin DateMath" value="/Users/dmb/Documents/jFin/WP Site/code/jfin/src/build.xml" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="junitsrc" value="/Users/dmb/Documents/jFin/WP Site/code/jfin/src/test/java" />
+    <property name="ant.file" value="/Users/dmb/Documents/jFin/WP Site/code/jfin/src/build.xml" />
+    <property name="os.version" value="10.6.2" />
+    <property name="junitcoverageresults" value="/Users/dmb/Documents/jFin/WP Site/code/jfin/target/doc/coverageresults" />
+    <property name="fc_distsample" value="/Users/dmb/Documents/jFin/WP Site/code/jfin/target/src/test/data/financialcalendar" />
+    <property name="junitdata" value="/Users/dmb/Documents/jFin/WP Site/code/jfin/target/test/data" />
+    <property name="junitdatasrc" value="/Users/dmb/Documents/jFin/WP Site/code/jfin/src/test/data" />
+    <property name="path.separator" value=":" />
+    <property name="java.vm.version" value="14.3-b01-101" />
+    <property name="ant.library.dir" value="/usr/share/ant/lib" />
+    <property name="zipbin" value="/Users/dmb/Documents/jFin/WP Site/code/jfin/target/jFin_DateMath_R1_0_1_bin.zip" />
+    <property name="java.awt.printerjob" value="apple.awt.CPrinterJob" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="awt.toolkit" value="apple.awt.CToolkit" />
+    <property name="coberturadatafile" value="/Users/dmb/Documents/jFin/WP Site/code/jfin/target/doc/coverageresults/cobertura.ser" />
+    <property name="zipsrc" value="/Users/dmb/Documents/jFin/WP Site/code/jfin/target/jFin_DateMath_R1_0_1_src.zip" />
+    <property name="user.home" value="/Users/dmb" />
+    <property name="target" value="/Users/dmb/Documents/jFin/WP Site/code/jfin/target" />
+    <property name="java.specification.vendor" value="Sun Microsystems Inc." />
+    <property name="java.library.path" value=".:/Users/dmb/Library/Java/Extensions:/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java" />
+    <property name="java.vendor.url" value="http://www.apple.com/" />
+    <property name="java.vm.vendor" value="Apple Inc." />
+    <property name="gopherProxySet" value="false" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="ant.version" value="Apache Ant version 1.7.1 compiled on September 22 2009" />
+    <property name="java.class.path" value="/Users/dmb/Documents/jFin/WP Site/code/jfin/lib/antlr.jar:/Users/dmb/Documents/jFin/WP Site/code/jfin/lib/asm-2.2.1.jar:/Users/dmb/Documents/jFin/WP Site/code/jfin/lib/asm-2.2.3.jar:/Users/dmb/Documents/jFin/WP Site/code/jfin/lib/asm-commons-2.2.3.jar:/Users/dmb/Documents/jFin/WP Site/code/jfin/lib/asm-util-2.2.3.jar:/Users/dmb/Documents/jFin/WP Site/code/jfin/lib/axis-ant.jar:/Users/dmb/Documents/jFin/WP Site/code/jfin/lib/axis-schema.jar:/Users/dmb/Documents/jFin/WP Site/code/jfin/lib/axis.jar:/Users/dmb/Documents/jFin/WP Site/code/jfin/lib/backport-util-concurrent.jar:/Users/dmb/Documents/jFin/WP Site/code/jfin/lib/cobertura.jar:/Users/dmb/Documents/jFin/WP Site/code/jfin/lib/commons-beanutils.jar:/Users/dmb/Documents/jFin/WP Site/code/jfin/lib/commons-digester.jar:/Users/dmb/Documents/jFin/WP Site/code/jfin/lib/commons-discovery-0.2.jar:/Users/dmb/Documents/jFin/WP Site/code/jfin/lib/commons-fileupload.jar:/Users/dmb/Documents/jFin/WP Site/code/jfin/lib/commons-logging-1.0.4.jar:/Users/dmb/Documents/jFin/WP Site/code/jfin/lib/commons-logging.jar:/Users/dmb/Documents/jFin/WP Site/code/jfin/lib/commons-validator.jar:/Users/dmb/Documents/jFin/WP Site/code/jfin/lib/jakarta-oro.jar:/Users/dmb/Documents/jFin/WP Site/code/jfin/lib/jaxrpc.jar:/Users/dmb/Documents/jFin/WP Site/code/jfin/lib/junit.jar:/Users/dmb/Documents/jFin/WP Site/code/jfin/lib/log4j-1.2.9.jar:/Users/dmb/Documents/jFin/WP Site/code/jfin/lib/retroweaver-1.2.5.jar:/Users/dmb/Documents/jFin/WP Site/code/jfin/lib/retroweaver-rt-1.2.5.jar:/Users/dmb/Documents/jFin/WP Site/code/jfin/lib/retroweaver-tests-1.2.5.jar:/Users/dmb/Documents/jFin/WP Site/code/jfin/lib/saaj.jar:/Users/dmb/Documents/jFin/WP Site/code/jfin/lib/servlet-api.jar:/Users/dmb/Documents/jFin/WP Site/code/jfin/lib/struts.jar:/Users/dmb/Documents/jFin/WP Site/code/jfin/lib/wsdl4j-1.5.1.jar:/Users/dmb/Documents/jFin/WP Site/code/jfin/target/instrumentedclasses:/Users/dmb/Documents/jFin/WP Site/code/jfin/target/classes:/Users/dmb/Documents/jFin/WP Site/code/jfin/target/test/classes:/Users/dmb/Documents/jFin/WP Site/code/jfin/weblib/axis-ant.jar:/Users/dmb/Documents/jFin/WP Site/code/jfin/weblib/axis-schema.jar:/Users/dmb/Documents/jFin/WP Site/code/jfin/weblib/axis.jar:/Users/dmb/Documents/jFin/WP Site/code/jfin/weblib/commons-beanutils.jar:/Users/dmb/Documents/jFin/WP Site/code/jfin/weblib/commons-digester.jar:/Users/dmb/Documents/jFin/WP Site/code/jfin/weblib/commons-discovery-0.2.jar:/Users/dmb/Documents/jFin/WP Site/code/jfin/weblib/commons-fileupload.jar:/Users/dmb/Documents/jFin/WP Site/code/jfin/weblib/commons-logging-1.0.4.jar:/Users/dmb/Documents/jFin/WP Site/code/jfin/weblib/commons-logging.jar:/Users/dmb/Documents/jFin/WP Site/code/jfin/weblib/commons-validator.jar:/Users/dmb/Documents/jFin/WP Site/code/jfin/weblib/jakarta-oro.jar:/Users/dmb/Documents/jFin/WP Site/code/jfin/weblib/jaxrpc.jar:/Users/dmb/Documents/jFin/WP Site/code/jfin/weblib/log4j-1.2.9.jar:/Users/dmb/Documents/jFin/WP Site/code/jfin/weblib/saaj.jar:/Users/dmb/Documents/jFin/WP Site/code/jfin/weblib/servlet-api.jar:/Users/dmb/Documents/jFin/WP Site/code/jfin/weblib/struts.jar:/Users/dmb/Documents/jFin/WP Site/code/jfin/weblib/wsdl4j-1.5.1.jar:/usr/share/java/ant-1.7.1/lib/ant-launcher.jar:/usr/share/ant/lib/ant.jar:/usr/share/ant/lib/ant-junit.jar" />
+    <property name="distjws" value="/Users/dmb/Documents/jFin/WP Site/code/jfin/target/jws" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="java.vm.specification.version" value="1.0" />
+    <property name="conf" value="/Users/dmb/Documents/jFin/WP Site/code/jfin/target/conf" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="sun.os.patch.level" value="unknown" />
+    <property name="java.io.tmpdir" value="/var/folders/W+/W+m-mzDfH6yPby60xqgAU++++TI/-Tmp-/" />
+    <property name="java.vendor.url.bug" value="http://bugreport.apple.com/" />
+    <property name="example_shell_source" value="/Users/dmb/Documents/jFin/WP Site/code/jfin/src/example/sh" />
+    <property name="dist_doc" value="/Users/dmb/Documents/jFin/WP Site/code/jfin/target/doc" />
+    <property name="debugclasses" value="/Users/dmb/Documents/jFin/WP Site/code/jfin/target/classes" />
+    <property name="mrj.build" value="10M3025" />
+    <property name="os.arch" value="x86_64" />
+    <property name="java.awt.graphicsenv" value="apple.awt.CGraphicsEnvironment" />
+    <property name="javadoc" value="/Users/dmb/Documents/jFin/WP Site/code/jfin/target/doc/javadoc" />
+    <property name="java.ext.dirs" value="/Users/dmb/Library/Java/Extensions:/Library/Java/Extensions:/System/Library/Java/Extensions:/System/Library/Frameworks/JavaVM.framework/Versions/1.6.0/Home/lib/ext" />
+    <property name="user.dir" value="/Users/dmb/Documents/jFin/WP Site/code/jfin/src" />
+    <property name="mrj.version" value="1060.1.6.0_17-248" />
+    <property name="jarfilename" value="jFin_DateMath_R1_0_1.jar" />
+    <property name="conf_source" value="/Users/dmb/Documents/jFin/WP Site/code/jfin/src/conf" />
+    <property name="line.separator" value="
+" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="basedir" value="/Users/dmb/Documents/jFin/WP Site/code/jfin" />
+    <property name="example_source" value="/Users/dmb/Documents/jFin/WP Site/code/jfin/src/example/java" />
+    <property name="ant.java.version" value="1.6" />
+    <property name="ant.core.lib" value="/usr/share/ant/lib/ant.jar" />
+    <property name="examples" value="/Users/dmb/Documents/jFin/WP Site/code/jfin/target/examples" />
+    <property name="file.encoding" value="MacRoman" />
+    <property name="war" value="/Users/dmb/Documents/jFin/WP Site/code/jfin/target/jFin_DateMath_R1_0_1.war" />
+    <property name="distsource" value="/Users/dmb/Documents/jFin/WP Site/code/jfin/target/src" />
+    <property name="java.specification.version" value="1.6" />
+    <property name="fc_sample" value="/Users/dmb/Documents/jFin/WP Site/code/jfin/src/test/data/financialcalendar" />
+    <property name="module" value="jFin_DateMath" />
+    <property name="warfilename" value="jFin_DateMath_R1_0_1.war" />
+    <property name="junit" value="/Users/dmb/Documents/jFin/WP Site/code/jfin/target/test" />
+  </properties>
+  <testcase classname="org.jfin.date.test.accrual.AccrualExceptionTest" name="testDefaultConstructor" time="0.0010" />
+  <testcase classname="org.jfin.date.test.accrual.AccrualExceptionTest" name="testMessageConstructor" time="0.0" />
+  <testcase classname="org.jfin.date.test.accrual.AccrualExceptionTest" name="testMessageThrowableConstructor" time="0.0" />
+  <testcase classname="org.jfin.date.test.accrual.AccrualExceptionTest" name="testThrowableConstructor" time="0.0" />
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

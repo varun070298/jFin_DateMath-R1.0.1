@@ -1,0 +1,2 @@
+INFO    20100219 01:13:43 Formatter test (org.jfin.date.test.jfinLoggingFormatterTest)
+
